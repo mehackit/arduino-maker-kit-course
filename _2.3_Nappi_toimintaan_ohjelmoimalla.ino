@@ -5,13 +5,12 @@ void setup() {
 }
 
 void loop() {
-  int buttonState = digitalRead(2);
-  Serial.println(buttonState);
+  Serial.println(digitalRead(2););
 
-if (buttonState == 0){
+  if (digitalRead(2) == 0){
     digitalWrite(5, HIGH); 
-  } else { 
+  } 
+  else { 
     digitalWrite(5, LOW); 
   }
-
 }
